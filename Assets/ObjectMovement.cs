@@ -11,7 +11,7 @@ public class ObjectMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        cube.transform.eulerAngles = movement;
+        cube.transform.localScale = movement;
     }
 
     // Update is called once per frame
